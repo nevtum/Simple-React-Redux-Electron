@@ -1,7 +1,8 @@
 import { createStore, applyMiddleware, compose } from 'redux';
 import rootreducer from './reducers';
+import DevTools from './components/DevTools';
 
-const enhancer = compose(); // to be changed in future
+const enhancer = compose(DevTools.instrument());
 
 export default function configureStore(initialState) {
     return createStore(
