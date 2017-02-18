@@ -4,14 +4,18 @@
   "description": "Boilerplate for react redux electron with redux devtools",
   "main": "main.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron -r babel-register ."
   },
   "author": "Neville Tummon",
   "license": "MIT",
   "dependencies": {
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-react": "^6.23.0",
+    "babel-register": "^6.23.0",
     "electron": "^1.4.15",
     "electron-reload": "^1.1.0",
     "react": "^15.4.2",
+    "react-dom": "^15.4.2",
     "react-redux": "^5.0.2",
     "redux": "^3.6.0"
   }
