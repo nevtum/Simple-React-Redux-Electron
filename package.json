@@ -1,7 +1,7 @@
 {
-  "name": "electron-redux-boilerplate",
+  "name": "react-redux-electron-starter-kit",
   "version": "1.0.0",
-  "description": "Boilerplate for react redux electron with redux devtools",
+  "description": "Boilerplate for React Redux within Electron with Redux Devtools enabled",
   "main": "main.js",
   "scripts": {
     "start": "electron -r babel-register ."
