@@ -19,6 +19,7 @@ function createReduxComponent(rootComponent) {
     };
 }
 
+import TestApp from './TestApp';
 // To use own root component, change rootComponent
 // argument passed into createReduxComponent.
-export default createReduxComponent(<h1>React Redux Electron App</h1>);
+export default createReduxComponent(<TestApp />);
