@@ -1,7 +1,7 @@
 {
-  "name": "react-redux-electron-starter-kit",
+  "name": "simple-react-redux-electron-starter-kit",
   "version": "1.0.0",
-  "description": "Boilerplate for React Redux within Electron with Redux Devtools enabled",
+  "description": "Minimalist boilerplate for Electron React Redux app with Devtools enabled",
   "main": "main.js",
   "scripts": {
     "start": "electron -r babel-register ."
