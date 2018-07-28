@@ -11,6 +11,10 @@ class TestApp extends React.Component {
         return (
             <div>
                 <h1>React Redux Electron App</h1>
+                <span>
+                    <p>Press Ctrl+h to move toggle visibility of the log monitor</p>
+                    <p>Press Ctrl+q to move log monitor around</p>
+                </span>
                 <input onClick={this.props.incrementCount} type="button" value="Increment" />
                 <span><p>Counter: {this.props.example.count}</p></span>
             </div>

@@ -5,6 +5,7 @@ This is a minimalist starter kit for getting an ES6 compliant React application 
 
 Clone this project and run the following commands. You must have Node.js installed to run:
 
+    npm install -g electron
     npm install
     npm start
 
